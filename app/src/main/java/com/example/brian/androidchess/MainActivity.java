@@ -41,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
         newgamebutton.setOnClickListener(new DrawerController(drawerLayout,"newgame",gameModel,squareAdapter,this,gridview,redcompswitch,blackcompswitch,flipBoardButton));
 
 
-        gameModel.play();
+        //gameModel.play();
     }
 }
