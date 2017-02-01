@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidChess.iml" filepath="$PROJECT_DIR$/AndroidChess.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/challengeChessAndroid.iml" filepath="$PROJECT_DIR$/challengeChessAndroid.iml" />
     </modules>
   </component>
 </project>
