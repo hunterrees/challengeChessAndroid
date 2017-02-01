@@ -1,10 +1,8 @@
 package com.example.brian.androidchess;
 
-import android.content.Context;
-import android.media.MediaPlayer;
+import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Switch;
