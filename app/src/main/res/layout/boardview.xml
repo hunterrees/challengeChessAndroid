@@ -11,22 +11,29 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="30dp"
-        android:background="@color/background"
-        tools:context="com.example.brian.chinesechesscopy.MainActivity"
+        android:background="#FF0000"
 
 
 
         >
 
-
-
-        <!--
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textTest"
-            android:text="Hello World!"/>
-            -->
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+            <Button
+                android:text="Mute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mute" />
+
+            <Button
+                android:text="Forfeit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/forfeit"/>
+        </LinearLayout>
 
         <GridView
             android:id="@+id/boardview"
@@ -40,27 +47,6 @@
             android:layout_centerInParent="true"
 
             />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:text="Flip Board"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/flip"
-                android:layout_gravity="left"/>
-
-            <Button
-                android:text="Undo Move"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/undo"
-                android:layout_gravity="right"/>
-        </LinearLayout>
-
-
 
     </LinearLayout>
 
