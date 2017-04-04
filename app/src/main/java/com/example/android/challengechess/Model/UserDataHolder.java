@@ -8,6 +8,7 @@ public class UserDataHolder {
     private static UserDataHolder instance;
     String username;
     String password;
+     public boolean isPlayingAgainstAI = false;
 
     public int getChosenColor() {
         return chosenColor;

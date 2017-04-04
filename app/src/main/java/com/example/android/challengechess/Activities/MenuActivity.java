@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.android.challengechess.Model.UserDataHolder;
 import com.example.android.challengechess.R;
 
 public class MenuActivity extends AppCompatActivity {
@@ -25,6 +26,13 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
         Button optionButton = (Button) findViewById(R.id.optionsButton);
+        Button computerButton = (Button) findViewById(R.id.computerButton);
+        computerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startComputerActivity();
+            }
+        });
         optionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,6 +79,8 @@ public class MenuActivity extends AppCompatActivity {
     private void startComputerActivity()
     {
         Intent intent = new Intent(this, GameActivity.class);
+        UserDataHolder holder = UserDataHolder.getInstance();
+        holder.isPlayingAgainstAI = true;
         startActivity(intent);
     }
     private void startLearningActivity()
