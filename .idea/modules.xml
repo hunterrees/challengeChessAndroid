@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ChallengeChess.iml" filepath="$PROJECT_DIR$/ChallengeChess.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/challengeChessAndroid.iml" filepath="$PROJECT_DIR$/challengeChessAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository.iml" filepath="$PROJECT_DIR$/repository.iml" />
     </modules>
   </component>
 </project>
